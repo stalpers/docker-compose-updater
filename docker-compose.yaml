@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  test_service:
+    container_name: "caddy"
+    image: "caddy:latest"
+    ports:
+      - "80:80"
+  foo_service:
+    container_name: "hello"
+    image: "crccheck/hello-world:latest"
+    ports:
+      - "8800:8000"
+

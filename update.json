@@ -1,0 +1,11 @@
+{
+        "services": [
+                "test_service",
+                "foo_service"
+        ],
+        "compose_file": "docker-compose.yaml",
+        "backup": "yes",
+        "remove_old": "yes",
+        "backup_dir": "backup",
+        "data_dir": "data"
+}
